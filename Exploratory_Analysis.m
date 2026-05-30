@@ -4,8 +4,10 @@ clear; clc; close all;
  set(0, 'defaultfigurecolor', 'w')
 
 % Importar dados
-dados  = readtable('motor/M1V1-dados_vibracao.csv');
-
+%dados  = readtable('motor/M1V2-dados_vibracao.csv');
+%dados  = readtable('motor/M1V1-vibration_data.csv');
+%dados = readtable('dados_com_tempo.csv');
+dados = readtable('csv_divididos/bloco_029.csv');
 summary(dados)
 head(dados)
 
@@ -18,7 +20,7 @@ az = dados.az;
 fs = 100; % Hz
 
 %% ===== RPM FIXO =====
-rpm_fixo = 1200;
+rpm_fixo = 1260;
 f_rot = rpm_fixo / 60; % 20 Hz
 
 %% ===== PRÉ-PROCESSAMENTO =====
@@ -80,7 +82,6 @@ plot(t, az); title('Time - Z'); grid on; xlim([0 2610]);
 xlabel('mm/s');
 ylabel('Time (s)');
 
-% ===== ESTATÍSTICAS =====
 
 % ===== ESTATÍSTICAS =====
 
