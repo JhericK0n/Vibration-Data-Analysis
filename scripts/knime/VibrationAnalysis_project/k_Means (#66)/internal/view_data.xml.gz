@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="13"/>
+    <entry key="ignoredColumns" type="xint" value="2"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="390"/>
+        <entry key="1" type="xint" value="660"/>
+        <entry key="2" type="xint" value="154"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="0.5675569241618449"/>
+        <entry key="1" type="xdouble" value="0.8859649053889785"/>
+        <entry key="2" type="xdouble" value="0.7868850151703851"/>
+        <entry key="3" type="xdouble" value="0.8859645806432869"/>
+        <entry key="4" type="xdouble" value="0.5076422051526281"/>
+        <entry key="5" type="xdouble" value="0.2705763214558647"/>
+        <entry key="6" type="xdouble" value="0.6899845579572635"/>
+        <entry key="7" type="xdouble" value="0.6570159243443707"/>
+        <entry key="8" type="xdouble" value="0.017227092985332475"/>
+        <entry key="9" type="xdouble" value="0.7868784362814952"/>
+        <entry key="10" type="xdouble" value="0.6652534465342688"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="0.5741571410196302"/>
+        <entry key="1" type="xdouble" value="0.35468743854983187"/>
+        <entry key="2" type="xdouble" value="0.13066964234488648"/>
+        <entry key="3" type="xdouble" value="0.3546871846106578"/>
+        <entry key="4" type="xdouble" value="0.21792572645125405"/>
+        <entry key="5" type="xdouble" value="0.7129657149621644"/>
+        <entry key="6" type="xdouble" value="0.28335087197470304"/>
+        <entry key="7" type="xdouble" value="0.7851226709562015"/>
+        <entry key="8" type="xdouble" value="0.014147952991886316"/>
+        <entry key="9" type="xdouble" value="0.1306690359955867"/>
+        <entry key="10" type="xdouble" value="0.8745072244349713"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="11"/>
+        <entry key="0" type="xdouble" value="0.5739491464930897"/>
+        <entry key="1" type="xdouble" value="0.3346363629265417"/>
+        <entry key="2" type="xdouble" value="0.1286234674403206"/>
+        <entry key="3" type="xdouble" value="0.33463646856388335"/>
+        <entry key="4" type="xdouble" value="0.2121779504650114"/>
+        <entry key="5" type="xdouble" value="0.6561673285129241"/>
+        <entry key="6" type="xdouble" value="0.3074691420880515"/>
+        <entry key="7" type="xdouble" value="0.5327892030709902"/>
+        <entry key="8" type="xdouble" value="0.05352786912623416"/>
+        <entry key="9" type="xdouble" value="0.1286222587266014"/>
+        <entry key="10" type="xdouble" value="0.11739687917353477"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="13"/>
+        <entry key="0" type="xstring" value="y_mean"/>
+        <entry key="1" type="xstring" value="y_std"/>
+        <entry key="2" type="xstring" value="y_var"/>
+        <entry key="3" type="xstring" value="y_rms"/>
+        <entry key="4" type="xstring" value="y_max"/>
+        <entry key="5" type="xstring" value="y_min"/>
+        <entry key="6" type="xstring" value="y_peak_to_peak"/>
+        <entry key="7" type="xstring" value="y_skewness"/>
+        <entry key="8" type="xstring" value="y_kurtosis"/>
+        <entry key="9" type="xstring" value="y_spectral_energy"/>
+        <entry key="10" type="xstring" value="y_spectral_centroid"/>
+        <entry key="11" type="xstring" isnull="true" value=""/>
+        <entry key="12" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

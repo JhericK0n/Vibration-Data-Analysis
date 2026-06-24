@@ -1,0 +1,174 @@
+!SESSION 2026-06-21 06:56:54.523 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-06-21 11:10:36.429
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-06-21 11:10:36.429
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE Software being installed: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE Software currently installed: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.429
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE KNIME Core API 5.11.0.v202603030810 (org.knime.core 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE KNIME Core API 5.11.1.v202606091016 (org.knime.core 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.429
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE From: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.core.feature.group [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.429
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE From: KNIME AP Core feature 5.11.0.v202603030810 (org.knime.features.core.feature.group 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.core [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.429
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE From: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.python3.scripting.nodes [5.11.1.v202606091016,5.11.1.v202606091016]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.429
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE From: KNIME Python 3 - Scripting Nodes 5.11.1.v202606091016 (org.knime.python3.scripting.nodes 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.429
+!MESSAGE To: osgi.bundle; org.knime.core [5.11.1,6.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-06-21 11:10:36.438
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-06-21 11:10:36.438
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE Software being installed: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE Software currently installed: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.438
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE KNIME Core API 5.11.0.v202603030810 (org.knime.core 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE KNIME Core API 5.11.1.v202606091016 (org.knime.core 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.438
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE From: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.core.feature.group [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.438
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE From: KNIME AP Core feature 5.11.0.v202603030810 (org.knime.features.core.feature.group 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.core [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.438
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE From: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.python3.scripting.nodes [5.11.1.v202606091016,5.11.1.v202606091016]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.438
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE From: KNIME Python 3 - Scripting Nodes 5.11.1.v202606091016 (org.knime.python3.scripting.nodes 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.438
+!MESSAGE To: osgi.bundle; org.knime.core [5.11.1,6.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-06-21 11:10:36.444
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-06-21 11:10:36.444
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE Software being installed: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE Software currently installed: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.444
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE KNIME Core API 5.11.0.v202603030810 (org.knime.core 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE KNIME Core API 5.11.1.v202606091016 (org.knime.core 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE From: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.core.feature.group [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE From: KNIME AP Core feature 5.11.0.v202603030810 (org.knime.features.core.feature.group 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.core [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE From: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.python3.scripting.nodes [5.11.1.v202606091016,5.11.1.v202606091016]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.444
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE From: KNIME Python 3 - Scripting Nodes 5.11.1.v202606091016 (org.knime.python3.scripting.nodes 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.444
+!MESSAGE To: osgi.bundle; org.knime.core [5.11.1,6.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2026-06-21 11:10:36.446
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2026-06-21 11:10:36.446
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE Software being installed: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE Software currently installed: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.446
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE KNIME Core API 5.11.0.v202603030810 (org.knime.core 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE KNIME Core API 5.11.1.v202606091016 (org.knime.core 5.11.1.v202606091016)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.446
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE From: KNIME Analytics Platform 5.11.0.v202603030810 (org.knime.desktop.product 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.features.core.feature.group [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.446
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE From: KNIME AP Core feature 5.11.0.v202603030810 (org.knime.features.core.feature.group 5.11.0.v202603030810)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.core [5.11.0.v202603030810,5.11.0.v202603030810]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.446
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE From: KNIME Python Integration 5.11.1.v202606091016 (org.knime.features.python3.scripting.feature.group 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.knime.python3.scripting.nodes [5.11.1.v202606091016,5.11.1.v202606091016]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2026-06-21 11:10:36.446
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE From: KNIME Python 3 - Scripting Nodes 5.11.1.v202606091016 (org.knime.python3.scripting.nodes 5.11.1.v202606091016)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2026-06-21 11:10:36.446
+!MESSAGE To: osgi.bundle; org.knime.core [5.11.1,6.0.0)
+!SESSION 2026-06-21 11:11:50.733 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/Users/heric/Documents/projetos-pessoal/IA/scripts/knime/
+
+!ENTRY org.knime.conda.envinstall 1 0 2026-06-21 11:11:59.379
+!MESSAGE Checking pixi cache directory for knime-python-versions (knime-python-versions-5.11.0-py313_202602051638) package: C:\Users\heric\AppData\Local\Programs\KNIME\bundling\.pixi-cache
+
+!ENTRY org.knime.conda.envinstall 1 0 2026-06-21 11:11:59.381
+!MESSAGE Could not determine version for knime-python-versions - cleaning cache to be safe.
